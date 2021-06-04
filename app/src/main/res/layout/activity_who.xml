@@ -19,7 +19,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.001" />
+        app:layout_constraintVertical_bias="0.01" />
 
 
     <Button
@@ -28,25 +28,24 @@
         android:layout_height="wrap_content"
         android:text="Мама"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWho"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonBrother"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="160dp"
-        android:layout_marginEnd="160dp"
-        android:layout_marginRight="160dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
         android:text="Брат"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonTeta"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonGrandMother"
@@ -57,20 +56,21 @@
         app:layout_constraintHorizontal_bias="0.879"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewWho"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonDad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:text="Папа"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.36" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonOtherPeople"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonSister"
@@ -78,11 +78,11 @@
         android:layout_height="wrap_content"
         android:text="Сестра"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.36" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonMum"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonGrandFather"
@@ -90,11 +90,11 @@
         android:layout_height="wrap_content"
         android:text="Дедушка"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintHorizontal_bias="0.886"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.36" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonGrandMother"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonDada"
@@ -105,8 +105,8 @@
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.455" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSister"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonTeta"
@@ -117,8 +117,8 @@
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonDada"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonZhena"
@@ -129,8 +129,8 @@
         app:layout_constraintHorizontal_bias="0.681"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.455" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSister"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonMuzh"
@@ -141,8 +141,8 @@
         app:layout_constraintHorizontal_bias="0.681"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonZhena"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonPrimarySchool"
@@ -150,45 +150,39 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
         android:text="Дошкольник"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/buttonOtherPeople"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/buttonBrother"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonTeta"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonPensioner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:text="Пенсионер"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.318"
-        app:layout_constraintStart_toEndOf="@+id/buttonOtherPeople"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintStart_toEndOf="@+id/buttonBrother"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMuzh"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonWorker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:text="Работающий"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonStudent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonPensioner"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonSchool"
@@ -203,8 +197,8 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonStudent"
         app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonPrimarySchool"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonStudent"
@@ -212,22 +206,23 @@
         android:layout_height="wrap_content"
         android:text="Студент"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonBrother"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <Button
         android:id="@+id/buttonOtherPeople"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
         android:text="Знакомый"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMum"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewWho"
+        app:layout_constraintVertical_bias="0.07999998" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
